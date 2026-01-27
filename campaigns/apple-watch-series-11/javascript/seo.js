@@ -1,22 +1,22 @@
 const seo = {
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "iPhone 6 256GB",
+    "name": "Apple Watch Series 11 GPS - Original com Garantia",
     "image": [
-        "https://ads.danielmazzeu.com.br/example/images/product.png"
+        "https://ads.danielmazzeu.com.br/campaigns/apple-watch-series-11/images/product.webp"
     ],
-    "description": "Aparelho icônico com alta capacidade de armazenamento. Selecionamos a melhor oferta disponível com procedência e garantia.",
+    "description": "Compre o novo Apple Watch Series 11 GPS. Monitoramento avançado de saúde, detecção de queda e tela Retina Sempre Ativa. Oferta exclusiva com Envio Full.",
     "brand": {
         "@type": "Brand",
         "name": "Apple"
     },
     "offers": {
         "@type": "Offer",
-        "url": "https://ads.danielmazzeu.com.br/example",
+        "url": "https://ads.danielmazzeu.com.br/campaigns/apple-watch-series-11",
         "priceCurrency": "BRL",
-        "price": "549.00",
+        "price": "3499.00",
         "priceValidUntil": "2026-12-31",
-        "itemCondition": "https://schema.org/UsedCondition",
+        "itemCondition": "https://schema.org/NewCondition",
         "availability": "https://schema.org/InStock",
         "seller": {
             "@type": "Organization",
@@ -25,7 +25,7 @@ const seo = {
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://ads.danielmazzeu.com.br/example"
+        "@id": "https://ads.danielmazzeu.com.br/campaigns/apple-watch-series-11"
     },
     "author": {
         "@type": "Person",
