@@ -63,7 +63,6 @@ header > a {
     color: var(--theme);
     text-transform: uppercase;
     border-radius: 12px;
-    border: 2px solid var(--theme);
     background-color: #000;
     display: block;
     transition: transform 0.2s ease;
@@ -89,7 +88,7 @@ header > a::before {
 header > a::after {
     content: "";
     position: absolute;
-    inset: 2px;
+    inset: 3px;
     background: #000;
     border-radius: 6px;
     z-index: -1;
