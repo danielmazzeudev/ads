@@ -95,10 +95,6 @@ header > a::after {
     z-index: -1;
 }
 
-header > a:active {
-    transform: scale(0.97);
-}
-
 header > p {
     font-size: 16px;
     font-weight: 500;
