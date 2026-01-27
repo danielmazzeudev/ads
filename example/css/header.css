@@ -2,7 +2,8 @@ header {
     position: relative;
     width: 100%;
     max-width: 500px;
-    margin: 16px auto;
+    margin: 0 auto;
+    margin-bottom: 16px;
     padding: 20px;
     border-radius: 20px;
     display: flex;
