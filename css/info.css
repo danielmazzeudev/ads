@@ -1,0 +1,46 @@
+.info {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.info h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.info h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.info p {
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.info p:last-child {
+    margin-bottom: 0;
+}
+
+.info a {
+    color: #0073e6;
+    text-decoration: underline;
+}
+
+.info a:hover {
+    color: #0056b3;
+}
+
+.info hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 40px 0;
+}
