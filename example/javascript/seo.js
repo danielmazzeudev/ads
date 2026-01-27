@@ -1,4 +1,4 @@
-const productSchema = {
+const seo = {
     "@context": "https://schema.org/",
     "@type": "Product",
     "name": "iPhone 6 256GB",
@@ -35,5 +35,5 @@ const productSchema = {
 
 const script = document.createElement('script');
 script.type = 'application/ld+json';
-script.text = JSON.stringify(productSchema);
+script.text = JSON.stringify(seo);
 document.head.appendChild(script);
