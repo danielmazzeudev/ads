@@ -4,6 +4,9 @@
         <!-- Initial Metatags -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv="Expires" content="0">
 
         <!-- Title -->
         <title>...</title>
@@ -36,33 +39,53 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
         <!-- Styles -->
-        <link rel="stylesheet" href="css/global.css">
-        <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/info.css">
-        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/global.css?v=1.0.0">
+        <link rel="stylesheet" href="css/nav.css?v=1.0.0">
+        <link rel="stylesheet" href="css/header.css?v=1.0.0">
+        <link rel="stylesheet" href="css/main.css?v=1.0.0">
+        <link rel="stylesheet" href="css/info.css?v=1.0.0">
+        <link rel="stylesheet" href="css/footer.css?v=1.0.0">
 
         <!-- Rich Snippets -->
         <script type="application/ld+json">
             {
-                "@context": "https://schema.org",
-                "@type": "WebPage",
-                "name": "Título da Página",
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "name": "iPhone 6 256GB",
+                "image": [
+                    "https://ads.danielmazzeu.com.br/example/images/product.png"
+                ],
                 "description": "...",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Apple"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "url": "https://ads.danielmazzeu.com.br/example",
+                    "priceCurrency": "BRL",
+                    "price": "0.00", 
+                    "priceValidUntil": "2026-12-31",
+                    "itemCondition": "https://schema.org/UsedCondition",
+                    "availability": "https://schema.org/InStock",
+                    "seller": {
+                        "@type": "Organization",
+                        "name": "Mercado Livre"
+                    }
+                },
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://ads.danielmazzeu.com.br/example"
+                },
                 "author": {
                     "@type": "Person",
-                    "name": "Daniel Mazzeu"
-                },
-                "publisher": {
-                    "@type": "Organization",
                     "name": "Daniel Mazzeu"
                 }
             }
         </script>
 
         <!-- Scripts -->
-        <script defer src="javascript/security.js"></script>
+        <script defer src="javascript/security.js?v=1.0.0"></script>
     </head>
     <body>
 
