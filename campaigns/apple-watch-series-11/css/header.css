@@ -51,7 +51,7 @@ header > h1 {
     font-weight: 900;
 }
 
-header > a {
+header > a.link {
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -68,7 +68,7 @@ header > a {
     transition: transform 0.2s ease;
 }
 
-header > a::before {
+header > a.link::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -85,7 +85,7 @@ header > a::before {
     z-index: -1;
 }
 
-header > a::after {
+header > a.link::after {
     content: "";
     position: absolute;
     inset: 3px;
